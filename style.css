@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #f8f8f8;
+}
+.input{
+    text-align: center;
+    margin:100px auto;
+}
+/* By using attributes */
+.input input[type='text']{
+    width:25rem;
+    height:5rem;
+    padding:1rem 1rem;
+    background: #e7e7e7;
+    border:none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+input[type='submit']{
+    width:7rem;
+    height: 5rem;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 2px;
+    background: #e7e7e7;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+input[type='submit']:hover{
+    cursor: pointer;
+}
+
+.card{
+    width:50%;
+    height:40vh;
+    background: #e7e7e7;
+    border:none;
+    margin: 50px auto;
+    border-radius: 3px;
+    padding: 20px 0;
+}
+
+.card h1{
+    padding:5px 0;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    margin-top: 40px ;
+    font-size: 20px;
+}
