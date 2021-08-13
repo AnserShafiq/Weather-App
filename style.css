@@ -7,11 +7,12 @@ body{
     background-image: url(/Mountains.jpg);
     background-size:100% 45rem;
     background-repeat: no-repeat;
+    margin-bottom:0;
 }
 
 .input{
     /* text-align: center; */
-    margin-top:5rem ;
+    margin-top:4rem;
     margin-left: 4rem;
 }
 .webTag{
