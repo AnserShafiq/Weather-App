@@ -68,7 +68,7 @@ input[type='submit']:hover{
     height:22rem;
     background:rgba(90, 99, 104, 0.85);
     border:5px rgb(80, 80, 89) solid;
-    margin: 100px auto 0;
+    margin: 80px auto 0;
     border-radius: 2rem;
     padding: 20px 0;
 }
