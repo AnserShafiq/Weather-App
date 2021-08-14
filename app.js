@@ -5,6 +5,7 @@ var desc=document.querySelector('.desc');
 var clouds=document.querySelector('.clouds');
 var button=document.querySelector('.submit');
 var view=document.querySelector('.view');
+var body=document.querySelector('body');
 
 
 button.addEventListener("click",function(name){
@@ -18,7 +19,7 @@ button.addEventListener("click",function(name){
         var nameValue=data["name"];
         var descValue=data["weather"][0]["description"];
         var cloudsValue=data["clouds"]["all"];
-
+        body.style.backgroundImage="url('https://source.unsplash.com/1600x900/?"+nameValue+"')";
         main.innerHTML=nameValue;
         desc.innerHTML="Desc - "+descValue;
         temp.innerHTML="Temp - "+tempValue+"° C";
