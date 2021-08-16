@@ -19,12 +19,12 @@ button.addEventListener("click",function(name){
         var nameValue=data["name"];
 
         body.style.backgroundImage="url('https://source.unsplash.com/"+screen.width+"x"+screen.height+"/?"+nameValue+"')";
-        body.style.backgroundSize="100% 51.85rem";
+//         body.style.backgroundSize="100% 51.85rem";
         
         var descValue=data["weather"][0]["description"];
         var cloudsValue=data["clouds"]["all"];
-        body.style.backgroundImage="url('https://source.unsplash.com/1600x900/?"+nameValue+"')";
-        body.style.backgroundSize="100% 51.85rem";
+//         body.style.backgroundImage="url('https://source.unsplash.com/1600x900/?"+nameValue+"')";
+//         body.style.backgroundSize="100% 51.85rem";
         main.innerHTML=nameValue;
         desc.innerHTML="Desc - "+descValue;
         temp.innerHTML="Temp - "+tempValue+"° C";
