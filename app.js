@@ -5,7 +5,7 @@ var desc=document.querySelector('.desc');
 var clouds=document.querySelector('.clouds');
 var button=document.querySelector('.submit');
 var view=document.querySelector('.view');
-
+var body=document.querySelector('body');
 
 button.addEventListener("click",function(name){
     fetch('https://api.openweathermap.org/data/2.5/weather?q='
@@ -16,6 +16,10 @@ button.addEventListener("click",function(name){
         console.log(data);
         var tempValue=data["main"]["temp"];
         var nameValue=data["name"];
+
+        body.style.backgroundImage="url('https://source.unsplash.com/"+screen.width+"x"+screen.height+"/?"+nameValue+"')";
+        body.style.backgroundSize="100% 51.85rem";
+        
         var descValue=data["weather"][0]["description"];
         var cloudsValue=data["clouds"]["all"];
 

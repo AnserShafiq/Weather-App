@@ -1,0 +1,73 @@
+/* For iphone 6,7,8 */
+
+@media only screen and (max-width:375px) and (max-height:667px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(/Mountains.jpg);
+        background-size:100% 667px;
+        background-repeat: no-repeat;
+    }
+    .input{
+        margin-top:10rem;
+        margin-left: 4.6rem;
+    }
+    .webTag{
+        font-family: 'Lobster', cursive;
+        font-size: 1rem;
+        color: rgb(199, 199, 199);
+        margin-top: -7rem;
+        margin-left: 1.4rem;
+    }
+    .input input[type='text']{
+        width:10rem;
+        height:3rem;
+        padding:1rem 0 1rem 1rem;
+        background:rgba(131, 145, 154, 0.6);
+        border:none;
+        border-bottom-left-radius:3rem ;
+        border-top-left-radius:3rem;
+        font-family: 'Lobster', cursive;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+    input[type='submit']{
+        font-family: 'Lobster', cursive;
+        width:4rem;
+        height: 3rem;
+        border: none;
+        border-bottom-right-radius:3rem ;
+        border-top-right-radius:3rem ;
+        background:rgba(131, 145, 154, 0.6);
+        font-weight: 1000;
+        font-size: 0.8rem;
+    }
+    .card{
+        width:15rem;
+        height:15rem;
+        background:rgba(90, 99, 104, 0.85);
+        border:5px rgb(80, 80, 89) solid;
+        margin: 150px auto 100px;
+        border-radius: 2rem;
+        padding: 20px 0;
+    }
+    
+    .card h1{
+        font-family: 'Righteous', cursive;
+        font-size: 2.3rem;
+        padding:10px 0 5px;
+        text-align: center;
+    }
+    
+    .card p{
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        margin-top: 20px ;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
