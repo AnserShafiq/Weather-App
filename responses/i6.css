@@ -17,10 +17,10 @@
     }
     .webTag{
         font-family: 'Lobster', cursive;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: rgb(199, 199, 199);
         margin-top: -7rem;
-        margin-left: 1.4rem;
+        margin-left: 1.2rem;
     }
     .input input[type='text']{
         width:10rem;
