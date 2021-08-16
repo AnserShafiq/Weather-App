@@ -43,8 +43,8 @@
         border-bottom-right-radius:3rem ;
         border-top-right-radius:3rem ;
         background:rgba(131, 145, 154, 0.6);
-        font-weight: 1000;
-        font-size: 0.8rem;
+        font-weight: 900;
+        font-size: 0.75rem;
     }
     .card{
         width:15rem;
