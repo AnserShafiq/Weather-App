@@ -37,8 +37,8 @@
     
     input[type='submit']{
         font-family: 'Lobster', cursive;
-        width:4rem;
-        height: 3rem;
+        width:3.5rem;
+        height:3rem;
         border: none;
         border-bottom-right-radius:3rem ;
         border-top-right-radius:3rem ;
